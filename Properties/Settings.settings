@@ -17,23 +17,11 @@
     <Setting Name="CERTPass" Type="System.String" Scope="User">
       <Value Profile="(Default)">Test1234</Value>
     </Setting>
-    <Setting Name="UserGivenName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Muhamad</Value>
-    </Setting>
-    <Setting Name="UserSurName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Danielsen</Value>
-    </Setting>
     <Setting Name="UserRole" Type="System.String" Scope="User">
       <Value Profile="(Default)">Læge</Value>
     </Setting>
-    <Setting Name="UserCpr" Type="System.String" Scope="User">
-      <Value Profile="(Default)">2006271866</Value>
-    </Setting>
     <Setting Name="UserEmail" Type="System.String" Scope="User">
       <Value Profile="(Default)">kpn@trifork.com</Value>
-    </Setting>
-    <Setting Name="UserAuthCode" Type="System.String" Scope="User">
-      <Value Profile="(Default)">FFFF1</Value>
     </Setting>
     <Setting Name="WhitelistSystemOwner" Type="System.String" Scope="User">
       <Value Profile="(Default)">Trifork</Value>
@@ -56,17 +44,32 @@
     <Setting Name="WhitelistRequestedRole" Type="System.String" Scope="User">
       <Value Profile="(Default)">Læge</Value>
     </Setting>
-    <Setting Name="CERTGivenName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Muhamad Danielsen</Value>
-    </Setting>
     <Setting Name="CERTCVR" Type="System.String" Scope="User">
       <Value Profile="(Default)">20921897</Value>
     </Setting>
     <Setting Name="STSUrl" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://test2-cnsp.ekstern-test.nspop.dk:8080/sts/services/SecurityTokenService</Value>
     </Setting>
+    <Setting Name="UserGivenName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lene</Value>
+    </Setting>
+    <Setting Name="UserSurName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Rasmussen</Value>
+    </Setting>
+    <Setting Name="UserCpr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2611223938</Value>
+    </Setting>
+    <Setting Name="UserAuthCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">K4CQR</Value>
+    </Setting>
+    <Setting Name="WhitelistYdernummer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8001149</Value>
+    </Setting>
+    <Setting Name="CERTGivenName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lene Rasmussen</Value>
+    </Setting>
     <Setting Name="CERTPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">c:\projects\fmkclient.net\fmkclient.net\cert\MuhamadDanielsen.p12</Value>
+      <Value Profile="(Default)">C:\Projects\fmkclient146.net\cert\LeneRasmussen.p12</Value>
     </Setting>
   </Settings>
 </SettingsFile>

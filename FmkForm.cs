@@ -32,5 +32,10 @@ namespace fmkclient.net
             txtResult.Text = FmkClientInstance.GetMedicineCard(txtCpr.Text);
         }
 
+        private void buttonHentRecepter_Click(object sender, EventArgs e)
+        {
+            txtResult.Text = FmkClientInstance.GetPrescriptions(txtCpr.Text);
+        }
+
     }
 }

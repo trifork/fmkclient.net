@@ -18,10 +18,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="C:\Projects\fmk-schemas\target\wsdl\MedicineCard-inline_2015_06_01-collection-dist\MedicineCard-inline_2015_06_01.wsdl" Protocol="file" SourceId="1" />
+    <MetadataSource Address="C:\Projects\fmk-schemas\target\standard\target\wsdl\MedicineCard-inline_2015_06_01.wsdl" Protocol="file" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MedicineCard-inline_2015_06_01.wsdl" MetadataType="Wsdl" ID="83739219-eff3-4acc-92a7-521ed4d42afe" SourceId="1" SourceUrl="file:///C:/Projects/fmk-schemas/target/wsdl/MedicineCard-inline_2015_06_01-collection-dist/MedicineCard-inline_2015_06_01.wsdl" />
+    <MetadataFile FileName="MedicineCard-inline_2015_06_011.wsdl" MetadataType="Wsdl" ID="3967d090-4978-4c46-809b-39216465c7da" SourceId="1" SourceUrl="file:///C:/Projects/fmk-schemas/target/standard/target/wsdl/MedicineCard-inline_2015_06_01.wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -149,6 +149,15 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AttachOrDetachPrescriptionResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AutomatedStartEffectuationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CancelOrderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CancelPrescriptionRequestResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CancelPrescriptionResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -167,13 +176,25 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CreatePharmacyEffectuationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CreatePrescriptionRequestResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CreatePrescriptionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.CreatePrescriptionWithoutCPRResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.DeleteEffectuationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetAquireOrderStatusResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetAuthorisationDateForNewestOpenPrescriptionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetDoseDispensingCardResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetDrugMedicationHistoryResponseType.datasource">
@@ -195,6 +216,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetNewOrdersResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetPrescriptionRequestsResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetPrescriptionResponseType.datasource">
@@ -221,6 +245,9 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.PrescriptionReplicationStatusType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.PrescriptionSearchResultType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.RemoveConsentResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -234,6 +261,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.SearchEffectuationsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.SearchPrescriptionRequestsResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.SearchWithdrawnDrugMedicationsResponseType.datasource">
@@ -269,9 +299,6 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.UpdateDrugMedicationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.UpdateEffectuationResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.UpdateMedicineCardResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -281,7 +308,7 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.WithdrawDrugMedicationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\fmk20150601\MedicineCard-inline_2015_06_01.wsdl" />
+    <None Include="Service References\fmk20150601\MedicineCard-inline_2015_06_011.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

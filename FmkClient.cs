@@ -27,8 +27,8 @@ namespace fmkclient.net
         {
             return new OrgUsingID
             {
-                NameFormat = NameFormat.medcomcvrnumber,
-                Value = Properties.Settings.Default.WhitelistOrgCVR
+                NameFormat = NameFormat.medcomynumber,
+                Value = Properties.Settings.Default.WhitelistYdernummer
             };
         }
 
@@ -36,9 +36,12 @@ namespace fmkclient.net
         {
             return new WhitelistingHeader
             {
-                OrgResponsibleName = Properties.Settings.Default.WhitelistOrgResponsibleName,
-                OrgUsingID = MakeOrgUsingID(),
-                OrgUsingName = Properties.Settings.Default.WhitelistOrgUsingName,
+                Items = new object[] { 
+                    Properties.Settings.Default.WhitelistOrgResponsibleName,    
+                    Properties.Settings.Default.WhitelistOrgUsingName,
+                    MakeOrgUsingID(),
+                },
+                ItemsElementName = new[] { ItemsChoiceType9.OrgResponsibleName, ItemsChoiceType9.OrgUsingName, ItemsChoiceType9.OrgUsingID, },
                 RequestedRole = Properties.Settings.Default.WhitelistRequestedRole,
                 SystemName = Properties.Settings.Default.WhitelistSystemName,
                 SystemOwnerName = Properties.Settings.Default.WhitelistSystemOwner,
@@ -69,7 +72,7 @@ namespace fmkclient.net
             PrescriptionReplicationStatusType prescriptionReplicationStatus;
 
             var timingList =
-                _fmkClient.GetMedicineCard_2015_06_01(sec, header, null, request.WhitelistingHeader, request.GetMedicineCardRequest, out prescriptionReplicationStatus, out responses);
+                _fmkClient.GetMedicineCard_2015_06_01(sec, header, null, request.WhitelistingHeader, null, request.GetMedicineCardRequest, out prescriptionReplicationStatus, out responses);
 
 
             fmkclient.net.fmk20150601.GetMedicineCardResponse_2015_06_01 response = new GetMedicineCardResponse_2015_06_01(timingList, prescriptionReplicationStatus, responses);
@@ -82,5 +85,43 @@ namespace fmkclient.net
             x.Serialize(writer, response);
             return sww.ToString();
         }
+        
+        public String GetPrescriptions(String cpr)
+        {
+            SecurityHeaderType sec = _sosiUtil.MakeSecurity();
+            Header header = _sosiUtil.MakeHeader();
+
+            GetPrescriptionRequest_2015_06_01 request = new GetPrescriptionRequest_2015_06_01
+            {
+                GetPrescriptionRequest = new GetPrescriptionRequestType
+                {
+                    Item = new PersonIdentifierType() { Value = cpr, source="CPR" },
+                    Items = new object[] {
+                        new IncludeOpenPrescriptionsType() 
+                    },
+                    IncludeEffectuations = true
+                },
+                Header = header,
+                Security = sec,
+                WhitelistingHeader = MakeWhitelistingHeader()
+            };
+
+            PrescriptionReplicationStatusType prescriptionReplicationStatus;
+            GetPrescriptionResponseType responseType;
+
+            var timingList =
+                _fmkClient.GetPrescription_2015_06_01(sec, header, null, request.WhitelistingHeader, null, request.GetPrescriptionRequest, out prescriptionReplicationStatus, out responseType);
+
+
+            fmkclient.net.fmk20150601.GetPrescriptionResponse_2015_06_01 response = new GetPrescriptionResponse_2015_06_01(timingList, prescriptionReplicationStatus, responseType);
+
+
+            var sww = new StringWriter();
+            var writer = XmlWriter.Create(sww);
+
+            var x = new XmlSerializer(response.GetType());
+            x.Serialize(writer, response);
+            return sww.ToString();
+        } 
     }
 }
