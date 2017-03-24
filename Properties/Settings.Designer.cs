@@ -289,7 +289,7 @@ namespace fmkclient.net.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Projects\\fmkclient146.net\\cert\\LeneRasmussen.p12")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Projects\\fmkclient.net\\fmkclient.net\\cert\\LeneRasmussen.p12")]
         public string CERTPath {
             get {
                 return ((string)(this["CERTPath"]));

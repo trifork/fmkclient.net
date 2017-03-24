@@ -69,7 +69,7 @@
       <Value Profile="(Default)">Lene Rasmussen</Value>
     </Setting>
     <Setting Name="CERTPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Projects\fmkclient146.net\cert\LeneRasmussen.p12</Value>
+      <Value Profile="(Default)">C:\Projects\fmkclient.net\fmkclient.net\cert\LeneRasmussen.p12</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -137,13 +137,7 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AbortEffectuationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AcknowledgeOrdersResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AquireOrderResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.AttachOrDetachPrescriptionResponseType.datasource">
@@ -188,13 +182,7 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.DeleteEffectuationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetAquireOrderStatusResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetAuthorisationDateForNewestOpenPrescriptionResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetDoseDispensingCardResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.GetDrugMedicationHistoryResponseType.datasource">
@@ -308,7 +296,6 @@
     <None Include="Service References\fmk20150601\fmkclient.net.fmk20150601.WithdrawDrugMedicationResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\fmk20150601\MedicineCard-inline_2015_06_011.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -326,6 +313,7 @@
     <None Include="Service References\fmk20150601\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\fmk20150601\MedicineCard-inline_2015_06_01.wsdl" />
     <None Include="Service References\fmk20150601\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>

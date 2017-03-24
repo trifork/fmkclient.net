@@ -22,28 +22,12 @@ namespace fmkclient.net.fmk20150601 {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
         fmkclient.net.fmk20150601.GetMedicineCardResponse_2015_06_01 GetMedicineCard_2015_06_01(fmkclient.net.fmk20150601.GetMedicineCardRequest_2015_06_01 request);
         
-        // CODEGEN: Generating message contract since the operation GetMedicineCardOnlyEffectuatable_2015_06_01 is neither RPC nor document wrapped.
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetMedicineCardOnlyEffectua" +
-            "table", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetMedicineCardOnlyEffectua" +
-            "table", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
-        fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableResponse_2015_06_01 GetMedicineCardOnlyEffectuatable_2015_06_01(fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequest_2015_06_01 request);
-        
         // CODEGEN: Generating message contract since the operation GetMedicineCardAsPDF_2015_06_01 is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetMedicineCardAsPDF", ReplyAction="*")]
         [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetMedicineCardAsPDF", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
         fmkclient.net.fmk20150601.GetMedicineCardAsPDFResponse_2015_06_01 GetMedicineCardAsPDF_2015_06_01(fmkclient.net.fmk20150601.GetMedicineCardAsPDFRequest_2015_06_01 request);
-        
-        // CODEGEN: Generating message contract since the operation GetDoseDispensingCard_2015_06_01 is neither RPC nor document wrapped.
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetDoseDispensingCard", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetDoseDispensingCard", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
-        fmkclient.net.fmk20150601.GetDoseDispensingCardResponse_2015_06_01 GetDoseDispensingCard_2015_06_01(fmkclient.net.fmk20150601.GetDoseDispensingCardRequest_2015_06_01 request);
         
         // CODEGEN: Generating message contract since the operation GetMedicineCardVersion_2015_06_01 is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetMedicineCardVersion", ReplyAction="*")]
@@ -390,29 +374,6 @@ namespace fmkclient.net.fmk20150601 {
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
         fmkclient.net.fmk20150601.AcknowledgeOrdersResponse_2015_06_01 AcknowledgeOrders_2015_06_01(fmkclient.net.fmk20150601.AcknowledgeOrdersRequest_2015_06_01 request);
-        
-        // CODEGEN: Generating message contract since the operation AquireOrder_2015_06_01 is neither RPC nor document wrapped.
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#AquireOrder", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#AquireOrder", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
-        fmkclient.net.fmk20150601.AquireOrderResponse_2015_06_01 AquireOrder_2015_06_01(fmkclient.net.fmk20150601.AquireOrderRequest_2015_06_01 request);
-        
-        // CODEGEN: Generating message contract since the operation AcknowledgeAquireOrderStatus_2015_06_01 is neither RPC nor document wrapped.
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#AcknowledgeAquireOrderStatu" +
-            "s", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#AcknowledgeAquireOrderStatu" +
-            "s", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
-        fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponse_2015_06_01 AcknowledgeAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusRequest_2015_06_01 request);
-        
-        // CODEGEN: Generating message contract since the operation GetAquireOrderStatus_2015_06_01 is neither RPC nor document wrapped.
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetAquireOrderStatus", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(string), Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#GetAquireOrderStatus", Name="FaultCode", Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ConsentValueType))]
-        fmkclient.net.fmk20150601.GetAquireOrderStatusResponse_2015_06_01 GetAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.GetAquireOrderStatusRequest_2015_06_01 request);
         
         // CODEGEN: Generating message contract since the operation RemoveConsent_2015_06_01 is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01#RemoveConsent", ReplyAction="*")]
@@ -773,7 +734,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -800,8 +761,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -1473,7 +1434,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -1500,8 +1461,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -1596,693 +1557,6 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.drugMedicationField = value;
                 this.RaisePropertyChanged("DrugMedication");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderReplyType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private long identifierField;
-        
-        private long prescriptionIdentifierField;
-        
-        private long orderIdentifierField;
-        
-        private CreatedType createdField;
-        
-        private ModifiedType modifiedField;
-        
-        private OrganisationType aquireFromPharmacyField;
-        
-        private AquireOrderStatusType statusField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long Identifier {
-            get {
-                return this.identifierField;
-            }
-            set {
-                this.identifierField = value;
-                this.RaisePropertyChanged("Identifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long PrescriptionIdentifier {
-            get {
-                return this.prescriptionIdentifierField;
-            }
-            set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long OrderIdentifier {
-            get {
-                return this.orderIdentifierField;
-            }
-            set {
-                this.orderIdentifierField = value;
-                this.RaisePropertyChanged("OrderIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public CreatedType Created {
-            get {
-                return this.createdField;
-            }
-            set {
-                this.createdField = value;
-                this.RaisePropertyChanged("Created");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public ModifiedType Modified {
-            get {
-                return this.modifiedField;
-            }
-            set {
-                this.modifiedField = value;
-                this.RaisePropertyChanged("Modified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public OrganisationType AquireFromPharmacy {
-            get {
-                return this.aquireFromPharmacyField;
-            }
-            set {
-                this.aquireFromPharmacyField = value;
-                this.RaisePropertyChanged("AquireFromPharmacy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public AquireOrderStatusType Status {
-            get {
-                return this.statusField;
-            }
-            set {
-                this.statusField = value;
-                this.RaisePropertyChanged("Status");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class CreatedType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ModificatorType byField;
-        
-        private System.DateTime dateTimeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ModificatorType By {
-            get {
-                return this.byField;
-            }
-            set {
-                this.byField = value;
-                this.RaisePropertyChanged("By");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateTime {
-            get {
-                return this.dateTimeField;
-            }
-            set {
-                this.dateTimeField = value;
-                this.RaisePropertyChanged("DateTime");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class ModifiedType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ModificatorType byField;
-        
-        private System.DateTime dateTimeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ModificatorType By {
-            get {
-                return this.byField;
-            }
-            set {
-                this.byField = value;
-                this.RaisePropertyChanged("By");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateTime {
-            get {
-                return this.dateTimeField;
-            }
-            set {
-                this.dateTimeField = value;
-                this.RaisePropertyChanged("DateTime");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public enum AquireOrderStatusType {
-        
-        /// <remarks/>
-        afsendt,
-        
-        /// <remarks/>
-        overtaget,
-        
-        /// <remarks/>
-        accepteret,
-        
-        /// <remarks/>
-        afvist,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderRequestedType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private long identifierField;
-        
-        private long prescriptionIdentifierField;
-        
-        private long orderIdentifierField;
-        
-        private CreatedType createdField;
-        
-        private OrganisationType aquireToPharmacyField;
-        
-        private AquireOrderStatusType statusField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long Identifier {
-            get {
-                return this.identifierField;
-            }
-            set {
-                this.identifierField = value;
-                this.RaisePropertyChanged("Identifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long PrescriptionIdentifier {
-            get {
-                return this.prescriptionIdentifierField;
-            }
-            set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long OrderIdentifier {
-            get {
-                return this.orderIdentifierField;
-            }
-            set {
-                this.orderIdentifierField = value;
-                this.RaisePropertyChanged("OrderIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public CreatedType Created {
-            get {
-                return this.createdField;
-            }
-            set {
-                this.createdField = value;
-                this.RaisePropertyChanged("Created");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public OrganisationType AquireToPharmacy {
-            get {
-                return this.aquireToPharmacyField;
-            }
-            set {
-                this.aquireToPharmacyField = value;
-                this.RaisePropertyChanged("AquireToPharmacy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public AquireOrderStatusType Status {
-            get {
-                return this.statusField;
-            }
-            set {
-                this.statusField = value;
-                this.RaisePropertyChanged("Status");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetAquireOrderStatusResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private OrganisationIdentifierType organisationIdentifierField;
-        
-        private object[] itemsField;
-        
-        private ItemsChoiceType11[] itemsElementNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public OrganisationIdentifierType OrganisationIdentifier {
-            get {
-                return this.organisationIdentifierField;
-            }
-            set {
-                this.organisationIdentifierField = value;
-                this.RaisePropertyChanged("OrganisationIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AquireOrderPendingReply", typeof(AquireOrderReplyType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("AquireOrderReply", typeof(AquireOrderReplyType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("AquireOrderRequested", typeof(AquireOrderRequestedType), Order=1)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=2)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType11[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType11 {
-        
-        /// <remarks/>
-        AquireOrderPendingReply,
-        
-        /// <remarks/>
-        AquireOrderReply,
-        
-        /// <remarks/>
-        AquireOrderRequested,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetAquireOrderStatusRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private OrganisationIdentifierType organisationIdentifierField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public OrganisationIdentifierType OrganisationIdentifier {
-            get {
-                return this.organisationIdentifierField;
-            }
-            set {
-                this.organisationIdentifierField = value;
-                this.RaisePropertyChanged("OrganisationIdentifier");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AcknowledgeAquireOrderStatusResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private AquireOrderResponseTypeAquireOrder[] aquireOrderField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("OrganisationIdentifier", typeof(OrganisationIdentifierType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("PersonIdentifier", typeof(PersonIdentifierType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AquireOrder", Order=1)]
-        public AquireOrderResponseTypeAquireOrder[] AquireOrder {
-            get {
-                return this.aquireOrderField;
-            }
-            set {
-                this.aquireOrderField = value;
-                this.RaisePropertyChanged("AquireOrder");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderResponseTypeAquireOrder : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private long identifierField;
-        
-        private long prescriptionIdentifierField;
-        
-        private long orderIdentifierField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long Identifier {
-            get {
-                return this.identifierField;
-            }
-            set {
-                this.identifierField = value;
-                this.RaisePropertyChanged("Identifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long PrescriptionIdentifier {
-            get {
-                return this.prescriptionIdentifierField;
-            }
-            set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long OrderIdentifier {
-            get {
-                return this.orderIdentifierField;
-            }
-            set {
-                this.orderIdentifierField = value;
-                this.RaisePropertyChanged("OrderIdentifier");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private long prescriptionIdentifierField;
-        
-        private long orderIdentifierField;
-        
-        private OrganisationType aquireToPharmacyField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long PrescriptionIdentifier {
-            get {
-                return this.prescriptionIdentifierField;
-            }
-            set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long OrderIdentifier {
-            get {
-                return this.orderIdentifierField;
-            }
-            set {
-                this.orderIdentifierField = value;
-                this.RaisePropertyChanged("OrderIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public OrganisationType AquireToPharmacy {
-            get {
-                return this.aquireToPharmacyField;
-            }
-            set {
-                this.aquireToPharmacyField = value;
-                this.RaisePropertyChanged("AquireToPharmacy");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AquireOrderRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private ModificatorType createdByField;
-        
-        private AquireOrderType[] aquireOrderField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("OrganisationIdentifier", typeof(OrganisationIdentifierType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("PersonIdentifier", typeof(PersonIdentifierType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ModificatorType CreatedBy {
-            get {
-                return this.createdByField;
-            }
-            set {
-                this.createdByField = value;
-                this.RaisePropertyChanged("CreatedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AquireOrder", Order=2)]
-        public AquireOrderType[] AquireOrder {
-            get {
-                return this.aquireOrderField;
-            }
-            set {
-                this.aquireOrderField = value;
-                this.RaisePropertyChanged("AquireOrder");
             }
         }
         
@@ -2948,8 +2222,6 @@ namespace fmkclient.net.fmk20150601 {
         
         private string dosageTextField;
         
-        private DosageForResponseType dosageField;
-        
         private bool substitutionAllowedField;
         
         private string supplementaryInformationField;
@@ -3246,18 +2518,6 @@ namespace fmkclient.net.fmk20150601 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=16)]
-        public DosageForResponseType Dosage {
-            get {
-                return this.dosageField;
-            }
-            set {
-                this.dosageField = value;
-                this.RaisePropertyChanged("Dosage");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
         public bool SubstitutionAllowed {
             get {
                 return this.substitutionAllowedField;
@@ -3269,7 +2529,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=18)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
         public string SupplementaryInformation {
             get {
                 return this.supplementaryInformationField;
@@ -3281,7 +2541,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=19)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=18)]
         public PrescriptionStatusType Status {
             get {
                 return this.statusField;
@@ -3293,7 +2553,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=20)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=19)]
         public string InvalidationReasonText {
             get {
                 return this.invalidationReasonTextField;
@@ -3305,7 +2565,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=21)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=20)]
         public System.DateTime Deprecated {
             get {
                 return this.deprecatedField;
@@ -3329,7 +2589,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=22)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=21)]
         public long ReplacesPrescriptionIdentifier {
             get {
                 return this.replacesPrescriptionIdentifierField;
@@ -3353,7 +2613,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=23)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=22)]
         public long ReplacedByPrescriptionIdentifier {
             get {
                 return this.replacedByPrescriptionIdentifierField;
@@ -3377,7 +2637,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Order", Order=24)]
+        [System.Xml.Serialization.XmlElementAttribute("Order", Order=23)]
         public OrderType[] Order {
             get {
                 return this.orderField;
@@ -3389,7 +2649,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=25)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=24)]
         public long Version {
             get {
                 return this.versionField;
@@ -3413,7 +2673,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=26)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=25)]
         public IsPrivatePrescriptionType IsPrivatePrescription {
             get {
                 return this.isPrivatePrescriptionField;
@@ -3767,8 +3027,6 @@ namespace fmkclient.net.fmk20150601 {
         
         private string packageQuantityField;
         
-        private DrugType drugField;
-        
         private string iterationNumberField;
         
         private string iterationIntervalField;
@@ -3812,19 +3070,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public DrugType Drug {
-            get {
-                return this.drugField;
-            }
-            set {
-                this.drugField = value;
-                this.RaisePropertyChanged("Drug");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=3)]
         public string IterationNumber {
             get {
                 return this.iterationNumberField;
@@ -3836,7 +3082,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=4)]
         public string IterationInterval {
             get {
                 return this.iterationIntervalField;
@@ -3848,7 +3094,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
         public IterationIntervalUnitType IterationIntervalUnit {
             get {
                 return this.iterationIntervalUnitField;
@@ -4011,6 +3257,162 @@ namespace fmkclient.net.fmk20150601 {
         
         /// <remarks/>
         Value,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public enum IterationIntervalUnitType {
+        
+        /// <remarks/>
+        dage,
+        
+        /// <remarks/>
+        uger,
+        
+        /// <remarks/>
+        måneder,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class IndicationType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object[] itemsField;
+        
+        private ItemsChoiceType[] itemsElementNameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Code", typeof(IndicationCodeType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("Text", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class IndicationCodeType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string sourceField;
+        
+        private string dateField;
+        
+        private string yearAndWeekField;
+        
+        private int valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string source {
+            get {
+                return this.sourceField;
+            }
+            set {
+                this.sourceField = value;
+                this.RaisePropertyChanged("source");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string date {
+            get {
+                return this.dateField;
+            }
+            set {
+                this.dateField = value;
+                this.RaisePropertyChanged("date");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string yearAndWeek {
+            get {
+                return this.yearAndWeekField;
+            }
+            set {
+                this.yearAndWeekField = value;
+                this.RaisePropertyChanged("yearAndWeek");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public int Value {
+            get {
+                return this.valueField;
+            }
+            set {
+                this.valueField = value;
+                this.RaisePropertyChanged("Value");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType {
+        
+        /// <remarks/>
+        Code,
+        
+        /// <remarks/>
+        FreeText,
+        
+        /// <remarks/>
+        Text,
     }
     
     /// <remarks/>
@@ -4886,1132 +4288,6 @@ namespace fmkclient.net.fmk20150601 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public enum IterationIntervalUnitType {
-        
-        /// <remarks/>
-        dage,
-        
-        /// <remarks/>
-        uger,
-        
-        /// <remarks/>
-        måneder,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class IndicationType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object[] itemsField;
-        
-        private ItemsChoiceType[] itemsElementNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Code", typeof(IndicationCodeType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(string), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("Text", typeof(string), Order=0)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class IndicationCodeType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string sourceField;
-        
-        private string dateField;
-        
-        private string yearAndWeekField;
-        
-        private int valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string source {
-            get {
-                return this.sourceField;
-            }
-            set {
-                this.sourceField = value;
-                this.RaisePropertyChanged("source");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string date {
-            get {
-                return this.dateField;
-            }
-            set {
-                this.dateField = value;
-                this.RaisePropertyChanged("date");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string yearAndWeek {
-            get {
-                return this.yearAndWeekField;
-            }
-            set {
-                this.yearAndWeekField = value;
-                this.RaisePropertyChanged("yearAndWeek");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public int Value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("Value");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType {
-        
-        /// <remarks/>
-        Code,
-        
-        /// <remarks/>
-        FreeText,
-        
-        /// <remarks/>
-        Text,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object[] itemsField;
-        
-        private ItemsChoiceType6[] itemsElementNameField;
-        
-        private DosageTypeType typeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AdministrationAccordingToSchemaInLocalSystem", typeof(AdministrationAccordingToSchemaInLocalSystemForResponseType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(DosageFreeTextForResponseType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StructuresAccordingToNeed", typeof(DosageStructuresForResponseType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StructuresFixed", typeof(DosageStructuresForResponseType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("UnitText", typeof(DosageQuantityUnitTextType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("UnitTexts", typeof(DosageQuantityUnitTextsType), Order=0)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType6[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public DosageTypeType Type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("Type");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AdministrationAccordingToSchemaInLocalSystemForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private object item1Field;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageStartedPreviously", typeof(DosageStartedPreviouslyType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", typeof(System.DateTime), DataType="date", Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageStartedPreviouslyType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageTimesDosageEndingUndeterminedType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageFreeTextForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private object item1Field;
-        
-        private string textField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageStartedPreviously", typeof(DosageStartedPreviouslyType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", typeof(System.DateTime), DataType="date", Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("Text");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageStructuresForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object[] itemsField;
-        
-        private DosageTranslationType dosageTranslationCombinedField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("EmptyStructure", typeof(EmptyDosageStructureType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("Structure", typeof(DosageStructureForResponseType), Order=0)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public DosageTranslationType DosageTranslationCombined {
-            get {
-                return this.dosageTranslationCombinedField;
-            }
-            set {
-                this.dosageTranslationCombinedField = value;
-                this.RaisePropertyChanged("DosageTranslationCombined");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class EmptyDosageStructureType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime itemField;
-        
-        private object item1Field;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
-        public System.DateTime Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageStructureForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private System.DateTime startDateField;
-        
-        private object item1Field;
-        
-        private string supplementaryTextField;
-        
-        private object[] itemsField;
-        
-        private DosageTranslationType dosageTranslationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("IterationInterval", typeof(int), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("NotIterated", typeof(DosageIsNotIteratedType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime StartDate {
-            get {
-                return this.startDateField;
-            }
-            set {
-                this.startDateField = value;
-                this.RaisePropertyChanged("StartDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=2)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string SupplementaryText {
-            get {
-                return this.supplementaryTextField;
-            }
-            set {
-                this.supplementaryTextField = value;
-                this.RaisePropertyChanged("SupplementaryText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AnyDay", typeof(DosageAnyDayType), Order=4)]
-        [System.Xml.Serialization.XmlElementAttribute("Day", typeof(DosageDayType), Order=4)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public DosageTranslationType DosageTranslation {
-            get {
-                return this.dosageTranslationField;
-            }
-            set {
-                this.dosageTranslationField = value;
-                this.RaisePropertyChanged("DosageTranslation");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageIsNotIteratedType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageAnyDayType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private DoseForAnyDayType[] doseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=0)]
-        public DoseForAnyDayType[] Dose {
-            get {
-                return this.doseField;
-            }
-            set {
-                this.doseField = value;
-                this.RaisePropertyChanged("Dose");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseForAnyDayType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string timeField;
-        
-        private decimal[] itemsField;
-        
-        private ItemsChoiceType3[] itemsElementNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string Time {
-            get {
-                return this.timeField;
-            }
-            set {
-                this.timeField = value;
-                this.RaisePropertyChanged("Time");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("MaximalQuantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("MinimalQuantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("Quantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public decimal[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=2)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType3[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType3 {
-        
-        /// <remarks/>
-        MaximalQuantity,
-        
-        /// <remarks/>
-        MinimalQuantity,
-        
-        /// <remarks/>
-        Quantity,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageDayType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int numberField;
-        
-        private DoseType[] doseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int Number {
-            get {
-                return this.numberField;
-            }
-            set {
-                this.numberField = value;
-                this.RaisePropertyChanged("Number");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=1)]
-        public DoseType[] Dose {
-            get {
-                return this.doseField;
-            }
-            set {
-                this.doseField = value;
-                this.RaisePropertyChanged("Dose");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string timeField;
-        
-        private decimal[] itemsField;
-        
-        private ItemsChoiceType4[] itemsElementNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string Time {
-            get {
-                return this.timeField;
-            }
-            set {
-                this.timeField = value;
-                this.RaisePropertyChanged("Time");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("MaximalQuantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("MinimalQuantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("Quantity", typeof(decimal), Order=1)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public decimal[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=2)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType4[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType4 {
-        
-        /// <remarks/>
-        MaximalQuantity,
-        
-        /// <remarks/>
-        MinimalQuantity,
-        
-        /// <remarks/>
-        Quantity,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageTranslationType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string shortTextField;
-        
-        private string longTextField;
-        
-        private decimal[] itemsField;
-        
-        private ItemsChoiceType5[] itemsElementNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ShortText {
-            get {
-                return this.shortTextField;
-            }
-            set {
-                this.shortTextField = value;
-                this.RaisePropertyChanged("ShortText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string LongText {
-            get {
-                return this.longTextField;
-            }
-            set {
-                this.longTextField = value;
-                this.RaisePropertyChanged("LongText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AverageDailyDosage", typeof(decimal), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("MaximalAverageDailyDosage", typeof(decimal), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("MinimalAverageDailyDosage", typeof(decimal), Order=2)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public decimal[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=3)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType5[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType5 {
-        
-        /// <remarks/>
-        AverageDailyDosage,
-        
-        /// <remarks/>
-        MaximalAverageDailyDosage,
-        
-        /// <remarks/>
-        MinimalAverageDailyDosage,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageQuantityUnitTextType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string sourceField;
-        
-        private string dateField;
-        
-        private string yearAndWeekField;
-        
-        private string valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string source {
-            get {
-                return this.sourceField;
-            }
-            set {
-                this.sourceField = value;
-                this.RaisePropertyChanged("source");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string date {
-            get {
-                return this.dateField;
-            }
-            set {
-                this.dateField = value;
-                this.RaisePropertyChanged("date");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string yearAndWeek {
-            get {
-                return this.yearAndWeekField;
-            }
-            set {
-                this.yearAndWeekField = value;
-                this.RaisePropertyChanged("yearAndWeek");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public string Value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("Value");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageQuantityUnitTextsType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string singularField;
-        
-        private string pluralField;
-        
-        private string sourceField;
-        
-        private string dateField;
-        
-        private string yearAndWeekField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string Singular {
-            get {
-                return this.singularField;
-            }
-            set {
-                this.singularField = value;
-                this.RaisePropertyChanged("Singular");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Plural {
-            get {
-                return this.pluralField;
-            }
-            set {
-                this.pluralField = value;
-                this.RaisePropertyChanged("Plural");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string source {
-            get {
-                return this.sourceField;
-            }
-            set {
-                this.sourceField = value;
-                this.RaisePropertyChanged("source");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string date {
-            get {
-                return this.dateField;
-            }
-            set {
-                this.dateField = value;
-                this.RaisePropertyChanged("date");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string yearAndWeek {
-            get {
-                return this.yearAndWeekField;
-            }
-            set {
-                this.yearAndWeekField = value;
-                this.RaisePropertyChanged("yearAndWeek");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType6 {
-        
-        /// <remarks/>
-        AdministrationAccordingToSchemaInLocalSystem,
-        
-        /// <remarks/>
-        FreeText,
-        
-        /// <remarks/>
-        StructuresAccordingToNeed,
-        
-        /// <remarks/>
-        StructuresFixed,
-        
-        /// <remarks/>
-        UnitText,
-        
-        /// <remarks/>
-        UnitTexts,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public enum DosageTypeType {
-        
-        /// <remarks/>
-        fast,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("efter behov")]
-        efterbehov,
-        
-        /// <remarks/>
-        kombineret,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("ikke angivet")]
-        ikkeangivet,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public enum PrescriptionStatusType {
         
         /// <remarks/>
@@ -6199,6 +4475,52 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class CreatedType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ModificatorType byField;
+        
+        private System.DateTime dateTimeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ModificatorType By {
+            get {
+                return this.byField;
+            }
+            set {
+                this.byField = value;
+                this.RaisePropertyChanged("By");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateTime {
+            get {
+                return this.dateTimeField;
+            }
+            set {
+                this.dateTimeField = value;
+                this.RaisePropertyChanged("DateTime");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class CreatedWithoutPersonType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ModificatorWithoutPersonType byField;
@@ -6208,6 +4530,52 @@ namespace fmkclient.net.fmk20150601 {
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public ModificatorWithoutPersonType By {
+            get {
+                return this.byField;
+            }
+            set {
+                this.byField = value;
+                this.RaisePropertyChanged("By");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateTime {
+            get {
+                return this.dateTimeField;
+            }
+            set {
+                this.dateTimeField = value;
+                this.RaisePropertyChanged("DateTime");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class ModifiedType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ModificatorType byField;
+        
+        private System.DateTime dateTimeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ModificatorType By {
             get {
                 return this.byField;
             }
@@ -6758,6 +5126,80 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.doseDispensingField = value;
                 this.RaisePropertyChanged("DoseDispensing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageQuantityUnitTextType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string sourceField;
+        
+        private string dateField;
+        
+        private string yearAndWeekField;
+        
+        private string valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string source {
+            get {
+                return this.sourceField;
+            }
+            set {
+                this.sourceField = value;
+                this.RaisePropertyChanged("source");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string date {
+            get {
+                return this.dateField;
+            }
+            set {
+                this.dateField = value;
+                this.RaisePropertyChanged("date");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string yearAndWeek {
+            get {
+                return this.yearAndWeekField;
+            }
+            set {
+                this.yearAndWeekField = value;
+                this.RaisePropertyChanged("yearAndWeek");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value {
+            get {
+                return this.valueField;
+            }
+            set {
+                this.valueField = value;
+                this.RaisePropertyChanged("Value");
             }
         }
         
@@ -7604,6 +6046,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long orderIdentifierField;
         
+        private string[] modificationMetadataField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public long PrescriptionIdentifier {
@@ -7625,6 +6069,18 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.orderIdentifierField = value;
                 this.RaisePropertyChanged("OrderIdentifier");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
             }
         }
         
@@ -7741,6 +6197,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long identifierField;
         
+        private string[] modificationMetadataField;
+        
         private OrganisationType orderedAtPharmacyField;
         
         private OrderWithDoseDispensingType doseDispensingField;
@@ -7762,7 +6220,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
         public OrganisationType OrderedAtPharmacy {
             get {
                 return this.orderedAtPharmacyField;
@@ -7774,7 +6244,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
         public OrderWithDoseDispensingType DoseDispensing {
             get {
                 return this.doseDispensingField;
@@ -7786,7 +6256,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DeliveryInstructionText", Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute("DeliveryInstructionText", Order=4)]
         public string[] DeliveryInstructionText {
             get {
                 return this.deliveryInstructionTextField;
@@ -7798,7 +6268,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
         public DeliveryType Delivery {
             get {
                 return this.deliveryField;
@@ -8001,6 +6471,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long replacePrescriptionIdentifierField;
         
+        private string[] modificationMetadataField;
+        
         private System.DateTime authorisationDateTimeField;
         
         private string systemNameField;
@@ -8020,8 +6492,6 @@ namespace fmkclient.net.fmk20150601 {
         private IndicationType indicationField;
         
         private string dosageTextField;
-        
-        private DosageForRequestType dosageField;
         
         private bool substitutionAllowedField;
         
@@ -8044,7 +6514,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
         public System.DateTime AuthorisationDateTime {
             get {
                 return this.authorisationDateTimeField;
@@ -8056,7 +6538,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
         public string SystemName {
             get {
                 return this.systemNameField;
@@ -8068,7 +6550,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
         public ReimbursementClauseType ReimbursementClause {
             get {
                 return this.reimbursementClauseField;
@@ -8092,7 +6574,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=5)]
         public System.DateTime ValidFromDate {
             get {
                 return this.validFromDateField;
@@ -8116,7 +6598,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=6)]
         public System.DateTime ValidToDate {
             get {
                 return this.validToDateField;
@@ -8128,8 +6610,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=6)]
-        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=7)]
         public object Item {
             get {
                 return this.itemField;
@@ -8141,7 +6623,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public IndicationType Indication {
             get {
                 return this.indicationField;
@@ -8153,7 +6635,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
         public string DosageText {
             get {
                 return this.dosageTextField;
@@ -8161,18 +6643,6 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.dosageTextField = value;
                 this.RaisePropertyChanged("DosageText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public DosageForRequestType Dosage {
-            get {
-                return this.dosageField;
-            }
-            set {
-                this.dosageField = value;
-                this.RaisePropertyChanged("Dosage");
             }
         }
         
@@ -8232,344 +6702,6 @@ namespace fmkclient.net.fmk20150601 {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object[] itemsField;
-        
-        private ItemsChoiceType10[] itemsElementNameField;
-        
-        private DosageTypeType typeField;
-        
-        private bool typeFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AdministrationAccordingToSchemaInLocalSystem", typeof(AdministrationAccordingToSchemaInLocalSystemForRequestType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(DosageFreeTextForRequestType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StructuresAccordingToNeed", typeof(DosageStructuresForRequestType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("StructuresFixed", typeof(DosageStructuresForRequestType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("UnitText", typeof(DosageQuantityUnitTextType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("UnitTexts", typeof(DosageQuantityUnitTextsType), Order=0)]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType10[] ItemsElementName {
-            get {
-                return this.itemsElementNameField;
-            }
-            set {
-                this.itemsElementNameField = value;
-                this.RaisePropertyChanged("ItemsElementName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public DosageTypeType Type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("Type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TypeSpecified {
-            get {
-                return this.typeFieldSpecified;
-            }
-            set {
-                this.typeFieldSpecified = value;
-                this.RaisePropertyChanged("TypeSpecified");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class AdministrationAccordingToSchemaInLocalSystemForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime itemField;
-        
-        private object item1Field;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
-        public System.DateTime Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageFreeTextForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime itemField;
-        
-        private object item1Field;
-        
-        private string textField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
-        public System.DateTime Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
-        public object Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("Text");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageStructuresForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object[] itemsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("EmptyStructure", typeof(EmptyDosageStructureType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("Structure", typeof(DosageStructureForRequestType), Order=0)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DosageStructureForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private System.DateTime item1Field;
-        
-        private object item2Field;
-        
-        private string supplementaryTextField;
-        
-        private object[] itemsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("IterationInterval", typeof(int), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("NotIterated", typeof(DosageIsNotIteratedType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=1)]
-        public System.DateTime Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=2)]
-        public object Item2 {
-            get {
-                return this.item2Field;
-            }
-            set {
-                this.item2Field = value;
-                this.RaisePropertyChanged("Item2");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string SupplementaryText {
-            get {
-                return this.supplementaryTextField;
-            }
-            set {
-                this.supplementaryTextField = value;
-                this.RaisePropertyChanged("SupplementaryText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AnyDay", typeof(DosageAnyDayType), Order=4)]
-        [System.Xml.Serialization.XmlElementAttribute("Day", typeof(DosageDayType), Order=4)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
-    public enum ItemsChoiceType10 {
-        
-        /// <remarks/>
-        AdministrationAccordingToSchemaInLocalSystem,
-        
-        /// <remarks/>
-        FreeText,
-        
-        /// <remarks/>
-        StructuresAccordingToNeed,
-        
-        /// <remarks/>
-        StructuresFixed,
-        
-        /// <remarks/>
-        UnitText,
-        
-        /// <remarks/>
-        UnitTexts,
     }
     
     /// <remarks/>
@@ -8788,13 +6920,59 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class ReopenPrescriptionType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private long identifierField;
+        
+        private string[] modificationMetadataField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public long Identifier {
+            get {
+                return this.identifierField;
+            }
+            set {
+                this.identifierField = value;
+                this.RaisePropertyChanged("Identifier");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class ReopenPrescriptionRequestType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private object itemField;
         
         private ModificatorType modifiedByField;
         
-        private long[] prescriptionIdentifierField;
+        private ReopenPrescriptionType[] prescriptionField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OrganisationIdentifier", typeof(OrganisationIdentifierType), Order=0)]
@@ -8822,14 +7000,14 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("PrescriptionIdentifier", Order=2)]
-        public long[] PrescriptionIdentifier {
+        [System.Xml.Serialization.XmlElementAttribute("Prescription", Order=2)]
+        public ReopenPrescriptionType[] Prescription {
             get {
-                return this.prescriptionIdentifierField;
+                return this.prescriptionField;
             }
             set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
+                this.prescriptionField = value;
+                this.RaisePropertyChanged("Prescription");
             }
         }
         
@@ -8902,6 +7080,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private string invalidationReasonTextField;
         
+        private string[] modificationMetadataField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public long Identifier {
@@ -8923,6 +7103,18 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.invalidationReasonTextField = value;
                 this.RaisePropertyChanged("InvalidationReasonText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
             }
         }
         
@@ -9050,13 +7242,59 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class PrescriptionToTerminateType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private long identifierField;
+        
+        private string[] modificationMetadataField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public long Identifier {
+            get {
+                return this.identifierField;
+            }
+            set {
+                this.identifierField = value;
+                this.RaisePropertyChanged("Identifier");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class TerminatePrescriptionRequestType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private object itemField;
         
         private ModificatorType modifiedByField;
         
-        private long[] prescriptionIdentifierField;
+        private PrescriptionToTerminateType[] prescriptionField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OrganisationIdentifier", typeof(OrganisationIdentifierType), Order=0)]
@@ -9084,14 +7322,14 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("PrescriptionIdentifier", Order=2)]
-        public long[] PrescriptionIdentifier {
+        [System.Xml.Serialization.XmlElementAttribute("Prescription", Order=2)]
+        public PrescriptionToTerminateType[] Prescription {
             get {
-                return this.prescriptionIdentifierField;
+                return this.prescriptionField;
             }
             set {
-                this.prescriptionIdentifierField = value;
-                this.RaisePropertyChanged("PrescriptionIdentifier");
+                this.prescriptionField = value;
+                this.RaisePropertyChanged("Prescription");
             }
         }
         
@@ -9616,7 +7854,7 @@ namespace fmkclient.net.fmk20150601 {
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class CreateAndEffectuatePrescriptionType : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private System.DateTime authorisationDateTimeField;
         
@@ -9626,21 +7864,13 @@ namespace fmkclient.net.fmk20150601 {
         
         private bool reimbursementClauseFieldSpecified;
         
-        private System.DateTime validFromDateField;
-        
-        private bool validFromDateFieldSpecified;
-        
-        private System.DateTime validToDateField;
-        
-        private bool validToDateFieldSpecified;
+        private DrugType drugField;
         
         private object itemField;
         
         private IndicationType indicationField;
         
         private string dosageTextField;
-        
-        private DosageForRequestType dosageField;
         
         private bool substitutionAllowedField;
         
@@ -9649,8 +7879,8 @@ namespace fmkclient.net.fmk20150601 {
         private CreateOrderAndEffectuationType orderField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=0)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -9709,56 +7939,20 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=4)]
-        public System.DateTime ValidFromDate {
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public DrugType Drug {
             get {
-                return this.validFromDateField;
+                return this.drugField;
             }
             set {
-                this.validFromDateField = value;
-                this.RaisePropertyChanged("ValidFromDate");
+                this.drugField = value;
+                this.RaisePropertyChanged("Drug");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValidFromDateSpecified {
-            get {
-                return this.validFromDateFieldSpecified;
-            }
-            set {
-                this.validFromDateFieldSpecified = value;
-                this.RaisePropertyChanged("ValidFromDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=5)]
-        public System.DateTime ValidToDate {
-            get {
-                return this.validToDateField;
-            }
-            set {
-                this.validToDateField = value;
-                this.RaisePropertyChanged("ValidToDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValidToDateSpecified {
-            get {
-                return this.validToDateFieldSpecified;
-            }
-            set {
-                this.validToDateFieldSpecified = value;
-                this.RaisePropertyChanged("ValidToDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=6)]
-        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=5)]
         public object Item {
             get {
                 return this.itemField;
@@ -9770,7 +7964,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public IndicationType Indication {
             get {
                 return this.indicationField;
@@ -9782,7 +7976,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public string DosageText {
             get {
                 return this.dosageTextField;
@@ -9794,19 +7988,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public DosageForRequestType Dosage {
-            get {
-                return this.dosageField;
-            }
-            set {
-                this.dosageField = value;
-                this.RaisePropertyChanged("Dosage");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public bool SubstitutionAllowed {
             get {
                 return this.substitutionAllowedField;
@@ -9818,7 +8000,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
         public string SupplementaryInformation {
             get {
                 return this.supplementaryInformationField;
@@ -9830,7 +8012,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
         public CreateOrderAndEffectuationType Order {
             get {
                 return this.orderField;
@@ -10292,6 +8474,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long identifierField;
         
+        private string[] modificationMetadataField;
+        
         private UndoEffectuationOnOrderType orderField;
         
         private bool terminateField;
@@ -10309,7 +8493,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
         public UndoEffectuationOnOrderType Order {
             get {
                 return this.orderField;
@@ -10321,7 +8517,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
         public bool Terminate {
             get {
                 return this.terminateField;
@@ -10787,6 +8983,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private AbortEffectuationRequestTypePrescriptionOrder orderField;
         
+        private string[] modificationMetadataField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public long Identifier {
@@ -10808,6 +9006,18 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.orderField = value;
                 this.RaisePropertyChanged("Order");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
             }
         }
         
@@ -10972,6 +9182,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long orderIdentifierField;
         
+        private string[] modificationMetadataField;
+        
         private CreatePharmacyEffectuationType effectuationField;
         
         private bool terminateField;
@@ -11001,7 +9213,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
         public CreatePharmacyEffectuationType Effectuation {
             get {
                 return this.effectuationField;
@@ -11013,7 +9237,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
         public bool Terminate {
             get {
                 return this.terminateField;
@@ -11408,6 +9632,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long identifierField;
         
+        private string[] modificationMetadataField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public long Identifier {
@@ -11417,6 +9643,18 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.identifierField = value;
                 this.RaisePropertyChanged("Identifier");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
             }
         }
         
@@ -11620,7 +9858,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -11647,8 +9885,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -11844,7 +10082,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -11871,8 +10109,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -12068,7 +10306,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -12095,8 +10333,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -12424,7 +10662,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -12451,8 +10689,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -12602,7 +10840,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType createdByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private System.DateTime authorisationDateTimeField;
         
@@ -12618,13 +10856,13 @@ namespace fmkclient.net.fmk20150601 {
         
         private System.DateTime validToDateField;
         
+        private DrugType drugField;
+        
         private object itemField;
         
         private IndicationType indicationField;
         
         private string dosageTextField;
-        
-        private DosageForRequestType dosageField;
         
         private bool substitutionAllowedField;
         
@@ -12645,8 +10883,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -12741,8 +10979,20 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=7)]
-        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public DrugType Drug {
+            get {
+                return this.drugField;
+            }
+            set {
+                this.drugField = value;
+                this.RaisePropertyChanged("Drug");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=8)]
         public object Item {
             get {
                 return this.itemField;
@@ -12754,7 +11004,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
         public IndicationType Indication {
             get {
                 return this.indicationField;
@@ -12766,7 +11016,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
         public string DosageText {
             get {
                 return this.dosageTextField;
@@ -12774,18 +11024,6 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.dosageTextField = value;
                 this.RaisePropertyChanged("DosageText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-        public DosageForRequestType Dosage {
-            get {
-                return this.dosageField;
-            }
-            set {
-                this.dosageField = value;
-                this.RaisePropertyChanged("Dosage");
             }
         }
         
@@ -14121,7 +12359,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -14148,8 +12386,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -14389,7 +12627,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType withdrawnByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -14416,8 +12654,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -14617,7 +12855,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private System.DateTime[] followUpDatesField;
         
@@ -14702,8 +12940,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=4)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -15208,6 +13446,774 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object[] itemsField;
+        
+        private ItemsChoiceType10[] itemsElementNameField;
+        
+        private DosageTypeType typeField;
+        
+        private bool typeFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("AdministrationAccordingToSchemaInLocalSystem", typeof(AdministrationAccordingToSchemaInLocalSystemForRequestType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(DosageFreeTextForRequestType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StructuresAccordingToNeed", typeof(DosageStructuresForRequestType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StructuresFixed", typeof(DosageStructuresForRequestType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("UnitText", typeof(DosageQuantityUnitTextType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("UnitTexts", typeof(DosageQuantityUnitTextsType), Order=0)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType10[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public DosageTypeType Type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("Type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool TypeSpecified {
+            get {
+                return this.typeFieldSpecified;
+            }
+            set {
+                this.typeFieldSpecified = value;
+                this.RaisePropertyChanged("TypeSpecified");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class AdministrationAccordingToSchemaInLocalSystemForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private System.DateTime itemField;
+        
+        private object item1Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
+        public System.DateTime Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageTimesDosageEndingUndeterminedType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageFreeTextForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private System.DateTime itemField;
+        
+        private object item1Field;
+        
+        private string textField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
+        public System.DateTime Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("Text");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageStructuresForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object[] itemsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("EmptyStructure", typeof(EmptyDosageStructureType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("Structure", typeof(DosageStructureForRequestType), Order=0)]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class EmptyDosageStructureType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private System.DateTime itemField;
+        
+        private object item1Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=0)]
+        public System.DateTime Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageStructureForRequestType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        private System.DateTime item1Field;
+        
+        private object item2Field;
+        
+        private string supplementaryTextField;
+        
+        private object[] itemsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("IterationInterval", typeof(int), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("NotIterated", typeof(DosageIsNotIteratedType), Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", DataType="date", Order=1)]
+        public System.DateTime Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=2)]
+        public object Item2 {
+            get {
+                return this.item2Field;
+            }
+            set {
+                this.item2Field = value;
+                this.RaisePropertyChanged("Item2");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string SupplementaryText {
+            get {
+                return this.supplementaryTextField;
+            }
+            set {
+                this.supplementaryTextField = value;
+                this.RaisePropertyChanged("SupplementaryText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("AnyDay", typeof(DosageAnyDayType), Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("Day", typeof(DosageDayType), Order=4)]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageIsNotIteratedType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageAnyDayType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private DoseForAnyDayType[] doseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=0)]
+        public DoseForAnyDayType[] Dose {
+            get {
+                return this.doseField;
+            }
+            set {
+                this.doseField = value;
+                this.RaisePropertyChanged("Dose");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DoseForAnyDayType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string timeField;
+        
+        private decimal[] itemsField;
+        
+        private ItemsChoiceType3[] itemsElementNameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string Time {
+            get {
+                return this.timeField;
+            }
+            set {
+                this.timeField = value;
+                this.RaisePropertyChanged("Time");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("MaximalQuantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("MinimalQuantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("Quantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public decimal[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=2)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType3[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType3 {
+        
+        /// <remarks/>
+        MaximalQuantity,
+        
+        /// <remarks/>
+        MinimalQuantity,
+        
+        /// <remarks/>
+        Quantity,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageDayType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private int numberField;
+        
+        private DoseType[] doseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public int Number {
+            get {
+                return this.numberField;
+            }
+            set {
+                this.numberField = value;
+                this.RaisePropertyChanged("Number");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=1)]
+        public DoseType[] Dose {
+            get {
+                return this.doseField;
+            }
+            set {
+                this.doseField = value;
+                this.RaisePropertyChanged("Dose");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DoseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string timeField;
+        
+        private decimal[] itemsField;
+        
+        private ItemsChoiceType4[] itemsElementNameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string Time {
+            get {
+                return this.timeField;
+            }
+            set {
+                this.timeField = value;
+                this.RaisePropertyChanged("Time");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("MaximalQuantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("MinimalQuantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("Quantity", typeof(decimal), Order=1)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public decimal[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=2)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType4[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType4 {
+        
+        /// <remarks/>
+        MaximalQuantity,
+        
+        /// <remarks/>
+        MinimalQuantity,
+        
+        /// <remarks/>
+        Quantity,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageQuantityUnitTextsType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string singularField;
+        
+        private string pluralField;
+        
+        private string sourceField;
+        
+        private string dateField;
+        
+        private string yearAndWeekField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string Singular {
+            get {
+                return this.singularField;
+            }
+            set {
+                this.singularField = value;
+                this.RaisePropertyChanged("Singular");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Plural {
+            get {
+                return this.pluralField;
+            }
+            set {
+                this.pluralField = value;
+                this.RaisePropertyChanged("Plural");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string source {
+            get {
+                return this.sourceField;
+            }
+            set {
+                this.sourceField = value;
+                this.RaisePropertyChanged("source");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string date {
+            get {
+                return this.dateField;
+            }
+            set {
+                this.dateField = value;
+                this.RaisePropertyChanged("date");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string yearAndWeek {
+            get {
+                return this.yearAndWeekField;
+            }
+            set {
+                this.yearAndWeekField = value;
+                this.RaisePropertyChanged("yearAndWeek");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType10 {
+        
+        /// <remarks/>
+        AdministrationAccordingToSchemaInLocalSystem,
+        
+        /// <remarks/>
+        FreeText,
+        
+        /// <remarks/>
+        StructuresAccordingToNeed,
+        
+        /// <remarks/>
+        StructuresFixed,
+        
+        /// <remarks/>
+        UnitText,
+        
+        /// <remarks/>
+        UnitTexts,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public enum DosageTypeType {
+        
+        /// <remarks/>
+        fast,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("efter behov")]
+        efterbehov,
+        
+        /// <remarks/>
+        kombineret,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("ikke angivet")]
+        ikkeangivet,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class UnpauseDrugMedicationResponseType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private PersonIdentifierType personIdentifierField;
@@ -15422,7 +14428,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -15449,8 +14455,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -15670,6 +14676,52 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class PrescriptionRequestToCancelType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private long identifierField;
+        
+        private string[] modificationMetadataField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public long Identifier {
+            get {
+                return this.identifierField;
+            }
+            set {
+                this.identifierField = value;
+                this.RaisePropertyChanged("Identifier");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class CancelPrescriptionRequestRequestType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private PersonIdentifierType personIdentifierField;
@@ -15680,7 +14732,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType reportedByField;
         
-        private long[] identifierField;
+        private PrescriptionRequestToCancelType[] prescriptionRequestField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -15731,14 +14783,14 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Identifier", Order=4)]
-        public long[] Identifier {
+        [System.Xml.Serialization.XmlElementAttribute("PrescriptionRequest", Order=4)]
+        public PrescriptionRequestToCancelType[] PrescriptionRequest {
             get {
-                return this.identifierField;
+                return this.prescriptionRequestField;
             }
             set {
-                this.identifierField = value;
-                this.RaisePropertyChanged("Identifier");
+                this.prescriptionRequestField = value;
+                this.RaisePropertyChanged("PrescriptionRequest");
             }
         }
         
@@ -15868,6 +14920,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private long drugMedicationIdentifierField;
         
+        private string[] modificationMetadataField;
+        
         private OrganisationType[] prescribingOrganisationField;
         
         private object itemField;
@@ -15887,7 +14941,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("PrescribingOrganisation", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=1)]
+        public string[] ModificationMetadata {
+            get {
+                return this.modificationMetadataField;
+            }
+            set {
+                this.modificationMetadataField = value;
+                this.RaisePropertyChanged("ModificationMetadata");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("PrescribingOrganisation", Order=2)]
         public OrganisationType[] PrescribingOrganisation {
             get {
                 return this.prescribingOrganisationField;
@@ -15899,8 +14965,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedRestriction", typeof(DoseDispensedRestrictionType), Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute("PackageRestriction", typeof(PackageRestrictionType), Order=3)]
         public object Item {
             get {
                 return this.itemField;
@@ -15912,7 +14978,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
         public CreateOrderType Order {
             get {
                 return this.orderField;
@@ -15946,6 +15012,8 @@ namespace fmkclient.net.fmk20150601 {
         private long medicineCardVersionField;
         
         private ModificatorType orderedByField;
+        
+        private ModificatorType reportedByField;
         
         private PrescriptionRequestToCreateType[] prescriptionRequestField;
         
@@ -15986,7 +15054,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("PrescriptionRequest", Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ModificatorType ReportedBy {
+            get {
+                return this.reportedByField;
+            }
+            set {
+                this.reportedByField = value;
+                this.RaisePropertyChanged("ReportedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("PrescriptionRequest", Order=4)]
         public PrescriptionRequestToCreateType[] PrescriptionRequest {
             get {
                 return this.prescriptionRequestField;
@@ -16295,6 +15375,8 @@ namespace fmkclient.net.fmk20150601 {
         
         private CreatedType createdField;
         
+        private ModificatorType reportedByField;
+        
         private OrganisationType[] prescribingOrganisationField;
         
         private PackageRestrictionType packageRestrictionField;
@@ -16346,7 +15428,19 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("PrescribingOrganisation", Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ModificatorType ReportedBy {
+            get {
+                return this.reportedByField;
+            }
+            set {
+                this.reportedByField = value;
+                this.RaisePropertyChanged("ReportedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("PrescribingOrganisation", Order=4)]
         public OrganisationType[] PrescribingOrganisation {
             get {
                 return this.prescribingOrganisationField;
@@ -16358,7 +15452,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
         public PackageRestrictionType PackageRestriction {
             get {
                 return this.packageRestrictionField;
@@ -16370,7 +15464,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public CreateOrderType Order {
             get {
                 return this.orderField;
@@ -16382,7 +15476,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public string Status {
             get {
                 return this.statusField;
@@ -16394,7 +15488,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public long PrescriptionIdentifier {
             get {
                 return this.prescriptionIdentifierField;
@@ -16418,7 +15512,7 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
         public ModificatorType CancelledBy {
             get {
                 return this.cancelledByField;
@@ -17093,7 +16187,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType createdByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private System.DateTime authorisationDateTimeField;
         
@@ -17174,8 +16268,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=3)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -17572,7 +16666,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType createdByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private object[] itemsField;
         
@@ -17613,8 +16707,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=3)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -17812,7 +16906,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Identifier", Order=0)]
@@ -17839,8 +16933,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -17874,7 +16968,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType modifiedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -17913,8 +17007,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=3)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -18184,7 +17278,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType createdByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         private System.DateTime[] followUpDatesField;
         
@@ -18251,8 +17345,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -18669,7 +17763,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private ModificatorType pausedByField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -18750,8 +17844,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=6)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -18961,6 +18055,472 @@ namespace fmkclient.net.fmk20150601 {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object[] itemsField;
+        
+        private ItemsChoiceType6[] itemsElementNameField;
+        
+        private DosageTypeType typeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("AdministrationAccordingToSchemaInLocalSystem", typeof(AdministrationAccordingToSchemaInLocalSystemForResponseType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("FreeText", typeof(DosageFreeTextForResponseType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StructuresAccordingToNeed", typeof(DosageStructuresForResponseType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StructuresFixed", typeof(DosageStructuresForResponseType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("UnitText", typeof(DosageQuantityUnitTextType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("UnitTexts", typeof(DosageQuantityUnitTextsType), Order=0)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType6[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public DosageTypeType Type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("Type");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class AdministrationAccordingToSchemaInLocalSystemForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        private object item1Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageStartedPreviously", typeof(DosageStartedPreviouslyType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", typeof(System.DateTime), DataType="date", Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageStartedPreviouslyType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageFreeTextForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        private object item1Field;
+        
+        private string textField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageStartedPreviously", typeof(DosageStartedPreviouslyType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("StartDate", typeof(System.DateTime), DataType="date", Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=1)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("Text");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageStructuresForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object[] itemsField;
+        
+        private DosageTranslationType dosageTranslationCombinedField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("EmptyStructure", typeof(EmptyDosageStructureType), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("Structure", typeof(DosageStructureForResponseType), Order=0)]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public DosageTranslationType DosageTranslationCombined {
+            get {
+                return this.dosageTranslationCombinedField;
+            }
+            set {
+                this.dosageTranslationCombinedField = value;
+                this.RaisePropertyChanged("DosageTranslationCombined");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageStructureForResponseType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        private System.DateTime startDateField;
+        
+        private object item1Field;
+        
+        private string supplementaryTextField;
+        
+        private object[] itemsField;
+        
+        private DosageTranslationType dosageTranslationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("IterationInterval", typeof(int), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("NotIterated", typeof(DosageIsNotIteratedType), Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
+        public System.DateTime StartDate {
+            get {
+                return this.startDateField;
+            }
+            set {
+                this.startDateField = value;
+                this.RaisePropertyChanged("StartDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("DosageEndingUndetermined", typeof(DosageTimesDosageEndingUndeterminedType), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("EndDate", typeof(System.DateTime), DataType="date", Order=2)]
+        public object Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string SupplementaryText {
+            get {
+                return this.supplementaryTextField;
+            }
+            set {
+                this.supplementaryTextField = value;
+                this.RaisePropertyChanged("SupplementaryText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("AnyDay", typeof(DosageAnyDayType), Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("Day", typeof(DosageDayType), Order=4)]
+        public object[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public DosageTranslationType DosageTranslation {
+            get {
+                return this.dosageTranslationField;
+            }
+            set {
+                this.dosageTranslationField = value;
+                this.RaisePropertyChanged("DosageTranslation");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
+    public partial class DosageTranslationType : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string shortTextField;
+        
+        private string longTextField;
+        
+        private decimal[] itemsField;
+        
+        private ItemsChoiceType5[] itemsElementNameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ShortText {
+            get {
+                return this.shortTextField;
+            }
+            set {
+                this.shortTextField = value;
+                this.RaisePropertyChanged("ShortText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string LongText {
+            get {
+                return this.longTextField;
+            }
+            set {
+                this.longTextField = value;
+                this.RaisePropertyChanged("LongText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("AverageDailyDosage", typeof(decimal), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("MaximalAverageDailyDosage", typeof(decimal), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("MinimalAverageDailyDosage", typeof(decimal), Order=2)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public decimal[] Items {
+            get {
+                return this.itemsField;
+            }
+            set {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=3)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType5[] ItemsElementName {
+            get {
+                return this.itemsElementNameField;
+            }
+            set {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType5 {
+        
+        /// <remarks/>
+        AverageDailyDosage,
+        
+        /// <remarks/>
+        MaximalAverageDailyDosage,
+        
+        /// <remarks/>
+        MinimalAverageDailyDosage,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", IncludeInSchema=false)]
+    public enum ItemsChoiceType6 {
+        
+        /// <remarks/>
+        AdministrationAccordingToSchemaInLocalSystem,
+        
+        /// <remarks/>
+        FreeText,
+        
+        /// <remarks/>
+        StructuresAccordingToNeed,
+        
+        /// <remarks/>
+        StructuresFixed,
+        
+        /// <remarks/>
+        UnitText,
+        
+        /// <remarks/>
+        UnitTexts,
     }
     
     /// <remarks/>
@@ -20769,7 +20329,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private System.DateTime notReviewedDateTimeField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -20796,8 +20356,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -20829,7 +20389,7 @@ namespace fmkclient.net.fmk20150601 {
         
         private System.DateTime reviewedDateTimeField;
         
-        private string modificationMetadataField;
+        private string[] modificationMetadataField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -20856,8 +20416,8 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string ModificationMetadata {
+        [System.Xml.Serialization.XmlElementAttribute("ModificationMetadata", Order=2)]
+        public string[] ModificationMetadata {
             get {
                 return this.modificationMetadataField;
             }
@@ -21338,1219 +20898,6 @@ namespace fmkclient.net.fmk20150601 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensedMedicationRefType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int indexField;
-        
-        private decimal quantityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int Index {
-            get {
-                return this.indexField;
-            }
-            set {
-                this.indexField = value;
-                this.RaisePropertyChanged("Index");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public decimal Quantity {
-            get {
-                return this.quantityField;
-            }
-            set {
-                this.quantityField = value;
-                this.RaisePropertyChanged("Quantity");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensingDispensableUnitType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime dateField;
-        
-        private string timeField;
-        
-        private string supplementaryTextField;
-        
-        private DoseDispensedMedicationRefType[] medicationRefField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=0)]
-        public System.DateTime Date {
-            get {
-                return this.dateField;
-            }
-            set {
-                this.dateField = value;
-                this.RaisePropertyChanged("Date");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Time {
-            get {
-                return this.timeField;
-            }
-            set {
-                this.timeField = value;
-                this.RaisePropertyChanged("Time");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string SupplementaryText {
-            get {
-                return this.supplementaryTextField;
-            }
-            set {
-                this.supplementaryTextField = value;
-                this.RaisePropertyChanged("SupplementaryText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("MedicationRef", Order=3)]
-        public DoseDispensedMedicationRefType[] MedicationRef {
-            get {
-                return this.medicationRefField;
-            }
-            set {
-                this.medicationRefField = value;
-                this.RaisePropertyChanged("MedicationRef");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class PlannedDosageDayType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int numberField;
-        
-        private PlannedDoseType[] doseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int Number {
-            get {
-                return this.numberField;
-            }
-            set {
-                this.numberField = value;
-                this.RaisePropertyChanged("Number");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=1)]
-        public PlannedDoseType[] Dose {
-            get {
-                return this.doseField;
-            }
-            set {
-                this.doseField = value;
-                this.RaisePropertyChanged("Dose");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class PlannedDoseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string timeField;
-        
-        private decimal quantityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string Time {
-            get {
-                return this.timeField;
-            }
-            set {
-                this.timeField = value;
-                this.RaisePropertyChanged("Time");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public decimal Quantity {
-            get {
-                return this.quantityField;
-            }
-            set {
-                this.quantityField = value;
-                this.RaisePropertyChanged("Quantity");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class PlannedDosageAnyDayType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private PlannedDoseType[] doseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Dose", Order=0)]
-        public PlannedDoseType[] Dose {
-            get {
-                return this.doseField;
-            }
-            set {
-                this.doseField = value;
-                this.RaisePropertyChanged("Dose");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class PlannedAdministrationStructureType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private System.DateTime startDateField;
-        
-        private bool startDateFieldSpecified;
-        
-        private System.DateTime endDateField;
-        
-        private bool endDateFieldSpecified;
-        
-        private string supplementaryTextField;
-        
-        private object[] itemsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("IterationInterval", typeof(int), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("NotIterated", typeof(DosageIsNotIteratedType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime StartDate {
-            get {
-                return this.startDateField;
-            }
-            set {
-                this.startDateField = value;
-                this.RaisePropertyChanged("StartDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StartDateSpecified {
-            get {
-                return this.startDateFieldSpecified;
-            }
-            set {
-                this.startDateFieldSpecified = value;
-                this.RaisePropertyChanged("StartDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=2)]
-        public System.DateTime EndDate {
-            get {
-                return this.endDateField;
-            }
-            set {
-                this.endDateField = value;
-                this.RaisePropertyChanged("EndDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EndDateSpecified {
-            get {
-                return this.endDateFieldSpecified;
-            }
-            set {
-                this.endDateFieldSpecified = value;
-                this.RaisePropertyChanged("EndDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string SupplementaryText {
-            get {
-                return this.supplementaryTextField;
-            }
-            set {
-                this.supplementaryTextField = value;
-                this.RaisePropertyChanged("SupplementaryText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AnyDay", typeof(PlannedDosageAnyDayType), Order=4)]
-        [System.Xml.Serialization.XmlElementAttribute("Day", typeof(PlannedDosageDayType), Order=4)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class PlannedAdministrationType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private object[] itemsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("UnitText", typeof(DosageQuantityUnitTextType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("UnitTexts", typeof(DosageQuantityUnitTextsType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("AdministrationStructure", typeof(PlannedAdministrationStructureType), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("EmptyStructure", typeof(EmptyDosageStructureType), Order=1)]
-        public object[] Items {
-            get {
-                return this.itemsField;
-            }
-            set {
-                this.itemsField = value;
-                this.RaisePropertyChanged("Items");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensedMedicationType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int indexField;
-        
-        private DrugMedicationType drugMedicationField;
-        
-        private string[] warningField;
-        
-        private PlannedAdministrationType plannedAdministrationField;
-        
-        private decimal totalNumberOfDoseDispensedQuantityField;
-        
-        private bool totalNumberOfDoseDispensedQuantityFieldSpecified;
-        
-        private System.DateTime doseDispensingEndDateField;
-        
-        private bool doseDispensingEndDateFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int Index {
-            get {
-                return this.indexField;
-            }
-            set {
-                this.indexField = value;
-                this.RaisePropertyChanged("Index");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public DrugMedicationType DrugMedication {
-            get {
-                return this.drugMedicationField;
-            }
-            set {
-                this.drugMedicationField = value;
-                this.RaisePropertyChanged("DrugMedication");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Warning", Order=2)]
-        public string[] Warning {
-            get {
-                return this.warningField;
-            }
-            set {
-                this.warningField = value;
-                this.RaisePropertyChanged("Warning");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public PlannedAdministrationType PlannedAdministration {
-            get {
-                return this.plannedAdministrationField;
-            }
-            set {
-                this.plannedAdministrationField = value;
-                this.RaisePropertyChanged("PlannedAdministration");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public decimal TotalNumberOfDoseDispensedQuantity {
-            get {
-                return this.totalNumberOfDoseDispensedQuantityField;
-            }
-            set {
-                this.totalNumberOfDoseDispensedQuantityField = value;
-                this.RaisePropertyChanged("TotalNumberOfDoseDispensedQuantity");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TotalNumberOfDoseDispensedQuantitySpecified {
-            get {
-                return this.totalNumberOfDoseDispensedQuantityFieldSpecified;
-            }
-            set {
-                this.totalNumberOfDoseDispensedQuantityFieldSpecified = value;
-                this.RaisePropertyChanged("TotalNumberOfDoseDispensedQuantitySpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=5)]
-        public System.DateTime DoseDispensingEndDate {
-            get {
-                return this.doseDispensingEndDateField;
-            }
-            set {
-                this.doseDispensingEndDateField = value;
-                this.RaisePropertyChanged("DoseDispensingEndDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DoseDispensingEndDateSpecified {
-            get {
-                return this.doseDispensingEndDateFieldSpecified;
-            }
-            set {
-                this.doseDispensingEndDateFieldSpecified = value;
-                this.RaisePropertyChanged("DoseDispensingEndDateSpecified");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensedMedicationIdentifierType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string sourceField;
-        
-        private long valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string source {
-            get {
-                return this.sourceField;
-            }
-            set {
-                this.sourceField = value;
-                this.RaisePropertyChanged("source");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public long Value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("Value");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensedMedicationWithNegativeConsentType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int indexField;
-        
-        private DoseDispensedMedicationIdentifierType identifierField;
-        
-        private long versionField;
-        
-        private bool versionFieldSpecified;
-        
-        private string warningField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int Index {
-            get {
-                return this.indexField;
-            }
-            set {
-                this.indexField = value;
-                this.RaisePropertyChanged("Index");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public DoseDispensedMedicationIdentifierType Identifier {
-            get {
-                return this.identifierField;
-            }
-            set {
-                this.identifierField = value;
-                this.RaisePropertyChanged("Identifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long Version {
-            get {
-                return this.versionField;
-            }
-            set {
-                this.versionField = value;
-                this.RaisePropertyChanged("Version");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VersionSpecified {
-            get {
-                return this.versionFieldSpecified;
-            }
-            set {
-                this.versionFieldSpecified = value;
-                this.RaisePropertyChanged("VersionSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string Warning {
-            get {
-                return this.warningField;
-            }
-            set {
-                this.warningField = value;
-                this.RaisePropertyChanged("Warning");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensingPeriodType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime startDateField;
-        
-        private bool startDateFieldSpecified;
-        
-        private System.DateTime endDateField;
-        
-        private bool endDateFieldSpecified;
-        
-        private System.DateTime deadlineField;
-        
-        private bool deadlineFieldSpecified;
-        
-        private System.DateTime effectuationDateField;
-        
-        private bool effectuationDateFieldSpecified;
-        
-        private DoseDispensedMedicationWithNegativeConsentType[] doseDispensedMedicationWithNegativeConsentField;
-        
-        private DoseDispensedMedicationType[] doseDispensedMedicationField;
-        
-        private DoseDispensingDispensableUnitType[] detailedSpecificationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=0)]
-        public System.DateTime StartDate {
-            get {
-                return this.startDateField;
-            }
-            set {
-                this.startDateField = value;
-                this.RaisePropertyChanged("StartDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StartDateSpecified {
-            get {
-                return this.startDateFieldSpecified;
-            }
-            set {
-                this.startDateFieldSpecified = value;
-                this.RaisePropertyChanged("StartDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime EndDate {
-            get {
-                return this.endDateField;
-            }
-            set {
-                this.endDateField = value;
-                this.RaisePropertyChanged("EndDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EndDateSpecified {
-            get {
-                return this.endDateFieldSpecified;
-            }
-            set {
-                this.endDateFieldSpecified = value;
-                this.RaisePropertyChanged("EndDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public System.DateTime Deadline {
-            get {
-                return this.deadlineField;
-            }
-            set {
-                this.deadlineField = value;
-                this.RaisePropertyChanged("Deadline");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DeadlineSpecified {
-            get {
-                return this.deadlineFieldSpecified;
-            }
-            set {
-                this.deadlineFieldSpecified = value;
-                this.RaisePropertyChanged("DeadlineSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=3)]
-        public System.DateTime EffectuationDate {
-            get {
-                return this.effectuationDateField;
-            }
-            set {
-                this.effectuationDateField = value;
-                this.RaisePropertyChanged("EffectuationDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EffectuationDateSpecified {
-            get {
-                return this.effectuationDateFieldSpecified;
-            }
-            set {
-                this.effectuationDateFieldSpecified = value;
-                this.RaisePropertyChanged("EffectuationDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedMedicationWithNegativeConsent", Order=4)]
-        public DoseDispensedMedicationWithNegativeConsentType[] DoseDispensedMedicationWithNegativeConsent {
-            get {
-                return this.doseDispensedMedicationWithNegativeConsentField;
-            }
-            set {
-                this.doseDispensedMedicationWithNegativeConsentField = value;
-                this.RaisePropertyChanged("DoseDispensedMedicationWithNegativeConsent");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensedMedication", Order=5)]
-        public DoseDispensedMedicationType[] DoseDispensedMedication {
-            get {
-                return this.doseDispensedMedicationField;
-            }
-            set {
-                this.doseDispensedMedicationField = value;
-                this.RaisePropertyChanged("DoseDispensedMedication");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=6)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("DispensableUnit", IsNullable=false)]
-        public DoseDispensingDispensableUnitType[] DetailedSpecification {
-            get {
-                return this.detailedSpecificationField;
-            }
-            set {
-                this.detailedSpecificationField = value;
-                this.RaisePropertyChanged("DetailedSpecification");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensingOnHoldType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private System.DateTime startDateField;
-        
-        private System.DateTime endDateField;
-        
-        private bool endDateFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=0)]
-        public System.DateTime StartDate {
-            get {
-                return this.startDateField;
-            }
-            set {
-                this.startDateField = value;
-                this.RaisePropertyChanged("StartDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime EndDate {
-            get {
-                return this.endDateField;
-            }
-            set {
-                this.endDateField = value;
-                this.RaisePropertyChanged("EndDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EndDateSpecified {
-            get {
-                return this.endDateFieldSpecified;
-            }
-            set {
-                this.endDateFieldSpecified = value;
-                this.RaisePropertyChanged("EndDateSpecified");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class DoseDispensingCardType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private DeliveryType deliveryField;
-        
-        private long packingGroupIdentifierField;
-        
-        private bool packingGroupIdentifierFieldSpecified;
-        
-        private string packingGroupNameField;
-        
-        private OrganisationType orderedAtPharmacyField;
-        
-        private OrganisationType packedAtOrganisationField;
-        
-        private DoseDispensingOnHoldType doseDispensingOnHoldField;
-        
-        private DoseDispensingPeriodType[] periodField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public DeliveryType Delivery {
-            get {
-                return this.deliveryField;
-            }
-            set {
-                this.deliveryField = value;
-                this.RaisePropertyChanged("Delivery");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long PackingGroupIdentifier {
-            get {
-                return this.packingGroupIdentifierField;
-            }
-            set {
-                this.packingGroupIdentifierField = value;
-                this.RaisePropertyChanged("PackingGroupIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PackingGroupIdentifierSpecified {
-            get {
-                return this.packingGroupIdentifierFieldSpecified;
-            }
-            set {
-                this.packingGroupIdentifierFieldSpecified = value;
-                this.RaisePropertyChanged("PackingGroupIdentifierSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string PackingGroupName {
-            get {
-                return this.packingGroupNameField;
-            }
-            set {
-                this.packingGroupNameField = value;
-                this.RaisePropertyChanged("PackingGroupName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public OrganisationType OrderedAtPharmacy {
-            get {
-                return this.orderedAtPharmacyField;
-            }
-            set {
-                this.orderedAtPharmacyField = value;
-                this.RaisePropertyChanged("OrderedAtPharmacy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public OrganisationType PackedAtOrganisation {
-            get {
-                return this.packedAtOrganisationField;
-            }
-            set {
-                this.packedAtOrganisationField = value;
-                this.RaisePropertyChanged("PackedAtOrganisation");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public DoseDispensingOnHoldType DoseDispensingOnHold {
-            get {
-                return this.doseDispensingOnHoldField;
-            }
-            set {
-                this.doseDispensingOnHoldField = value;
-                this.RaisePropertyChanged("DoseDispensingOnHold");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Period", Order=6)]
-        public DoseDispensingPeriodType[] Period {
-            get {
-                return this.periodField;
-            }
-            set {
-                this.periodField = value;
-                this.RaisePropertyChanged("Period");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetDoseDispensingCardResponseType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private PatientType patientField;
-        
-        private System.DateTime requestDateTimeField;
-        
-        private DoseDispensingCardType[] doseDispensingCardField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public PatientType Patient {
-            get {
-                return this.patientField;
-            }
-            set {
-                this.patientField = value;
-                this.RaisePropertyChanged("Patient");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime RequestDateTime {
-            get {
-                return this.requestDateTimeField;
-            }
-            set {
-                this.requestDateTimeField = value;
-                this.RaisePropertyChanged("RequestDateTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DoseDispensingCard", Order=2)]
-        public DoseDispensingCardType[] DoseDispensingCard {
-            get {
-                return this.doseDispensingCardField;
-            }
-            set {
-                this.doseDispensingCardField = value;
-                this.RaisePropertyChanged("DoseDispensingCard");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class CurrentAndUpcommingDoseDispensingPeriodsFlagType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class CurrentDoseDispensingPeriodFlagType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetDoseDispensingCardRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private PersonIdentifierType personIdentifierField;
-        
-        private GetDoseDispensingCardRequestTypeRequestedPeriod requestedPeriodField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public PersonIdentifierType PersonIdentifier {
-            get {
-                return this.personIdentifierField;
-            }
-            set {
-                this.personIdentifierField = value;
-                this.RaisePropertyChanged("PersonIdentifier");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public GetDoseDispensingCardRequestTypeRequestedPeriod RequestedPeriod {
-            get {
-                return this.requestedPeriodField;
-            }
-            set {
-                this.requestedPeriodField = value;
-                this.RaisePropertyChanged("RequestedPeriod");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetDoseDispensingCardRequestTypeRequestedPeriod : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("CurrentAndUpcommingPeriods", typeof(CurrentAndUpcommingDoseDispensingPeriodsFlagType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("CurrentPeriod", typeof(CurrentDoseDispensingPeriodFlagType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("RequestedDate", typeof(System.DateTime), DataType="date", Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
     public partial class GetMedicineCardAsPDFResponseType : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string[] itemsField;
@@ -22699,71 +21046,6 @@ namespace fmkclient.net.fmk20150601 {
             set {
                 this.showDosageLimitationsField = value;
                 this.RaisePropertyChanged("ShowDosageLimitations");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class IncludeOnlyDoseDispensableContentType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1586.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-    public partial class GetMedicineCardOnlyEffectuatableRequestType : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        private IncludeOnlyDoseDispensableContentType includeOnlyDoseDispensableContentField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("OrganisationIdentifier", typeof(OrganisationIdentifierType), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("PersonIdentifier", typeof(PersonIdentifierType), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public IncludeOnlyDoseDispensableContentType IncludeOnlyDoseDispensableContent {
-            get {
-                return this.includeOnlyDoseDispensableContentField;
-            }
-            set {
-                this.includeOnlyDoseDispensableContentField = value;
-                this.RaisePropertyChanged("IncludeOnlyDoseDispensableContent");
             }
         }
         
@@ -24322,72 +22604,6 @@ namespace fmkclient.net.fmk20150601 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetMedicineCardOnlyEffectuatableRequest_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
-            "")]
-        public fmkclient.net.fmk20150601.SecurityHeaderType Security;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        public fmkclient.net.fmk20150601.Header Header;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.sdsd.dk/dgws/2012/06")]
-        public fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Consent", IsNullable=false)]
-        public fmkclient.net.fmk20150601.ConsentType[] ConsentHeader;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequestType GetMedicineCardOnlyEffectuatableRequest;
-        
-        public GetMedicineCardOnlyEffectuatableRequest_2015_06_01() {
-        }
-        
-        public GetMedicineCardOnlyEffectuatableRequest_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequestType GetMedicineCardOnlyEffectuatableRequest) {
-            this.Security = Security;
-            this.Header = Header;
-            this.OnBehalfOf = OnBehalfOf;
-            this.WhitelistingHeader = WhitelistingHeader;
-            this.ConsentHeader = ConsentHeader;
-            this.GetMedicineCardOnlyEffectuatableRequest = GetMedicineCardOnlyEffectuatableRequest;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetMedicineCardOnlyEffectuatableResponse_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Timing", IsNullable=false)]
-        public fmkclient.net.fmk20150601.TimingType[] TimingList;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("MedicineCard", IsNullable=false)]
-        public fmkclient.net.fmk20150601.MedicineCardType[] GetMedicineCardOnlyEffectuatableResponse;
-        
-        public GetMedicineCardOnlyEffectuatableResponse_2015_06_01() {
-        }
-        
-        public GetMedicineCardOnlyEffectuatableResponse_2015_06_01(fmkclient.net.fmk20150601.TimingType[] TimingList, fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, fmkclient.net.fmk20150601.MedicineCardType[] GetMedicineCardOnlyEffectuatableResponse) {
-            this.TimingList = TimingList;
-            this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
-            this.GetMedicineCardOnlyEffectuatableResponse = GetMedicineCardOnlyEffectuatableResponse;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class GetMedicineCardAsPDFRequest_2015_06_01 {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
@@ -24446,71 +22662,6 @@ namespace fmkclient.net.fmk20150601 {
             this.TimingList = TimingList;
             this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
             this.GetMedicineCardAsPDFResponse = GetMedicineCardAsPDFResponse;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetDoseDispensingCardRequest_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
-            "")]
-        public fmkclient.net.fmk20150601.SecurityHeaderType Security;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        public fmkclient.net.fmk20150601.Header Header;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.sdsd.dk/dgws/2012/06")]
-        public fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Consent", IsNullable=false)]
-        public fmkclient.net.fmk20150601.ConsentType[] ConsentHeader;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.GetDoseDispensingCardRequestType GetDoseDispensingCardRequest;
-        
-        public GetDoseDispensingCardRequest_2015_06_01() {
-        }
-        
-        public GetDoseDispensingCardRequest_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetDoseDispensingCardRequestType GetDoseDispensingCardRequest) {
-            this.Security = Security;
-            this.Header = Header;
-            this.OnBehalfOf = OnBehalfOf;
-            this.WhitelistingHeader = WhitelistingHeader;
-            this.ConsentHeader = ConsentHeader;
-            this.GetDoseDispensingCardRequest = GetDoseDispensingCardRequest;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetDoseDispensingCardResponse_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Timing", IsNullable=false)]
-        public fmkclient.net.fmk20150601.TimingType[] TimingList;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.GetDoseDispensingCardResponseType GetDoseDispensingCardResponse;
-        
-        public GetDoseDispensingCardResponse_2015_06_01() {
-        }
-        
-        public GetDoseDispensingCardResponse_2015_06_01(fmkclient.net.fmk20150601.TimingType[] TimingList, fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, fmkclient.net.fmk20150601.GetDoseDispensingCardResponseType GetDoseDispensingCardResponse) {
-            this.TimingList = TimingList;
-            this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
-            this.GetDoseDispensingCardResponse = GetDoseDispensingCardResponse;
         }
     }
     
@@ -27643,202 +25794,6 @@ namespace fmkclient.net.fmk20150601 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class AquireOrderRequest_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
-            "")]
-        public fmkclient.net.fmk20150601.SecurityHeaderType Security;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        public fmkclient.net.fmk20150601.Header Header;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.sdsd.dk/dgws/2012/06")]
-        public fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Consent", IsNullable=false)]
-        public fmkclient.net.fmk20150601.ConsentType[] ConsentHeader;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.AquireOrderRequestType AquireOrderRequest;
-        
-        public AquireOrderRequest_2015_06_01() {
-        }
-        
-        public AquireOrderRequest_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.AquireOrderRequestType AquireOrderRequest) {
-            this.Security = Security;
-            this.Header = Header;
-            this.OnBehalfOf = OnBehalfOf;
-            this.WhitelistingHeader = WhitelistingHeader;
-            this.ConsentHeader = ConsentHeader;
-            this.AquireOrderRequest = AquireOrderRequest;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class AquireOrderResponse_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Timing", IsNullable=false)]
-        public fmkclient.net.fmk20150601.TimingType[] TimingList;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.AquireOrderResponseType AquireOrderResponse;
-        
-        public AquireOrderResponse_2015_06_01() {
-        }
-        
-        public AquireOrderResponse_2015_06_01(fmkclient.net.fmk20150601.TimingType[] TimingList, fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, fmkclient.net.fmk20150601.AquireOrderResponseType AquireOrderResponse) {
-            this.TimingList = TimingList;
-            this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
-            this.AquireOrderResponse = AquireOrderResponse;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class AcknowledgeAquireOrderStatusRequest_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
-            "")]
-        public fmkclient.net.fmk20150601.SecurityHeaderType Security;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        public fmkclient.net.fmk20150601.Header Header;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.sdsd.dk/dgws/2012/06")]
-        public fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Consent", IsNullable=false)]
-        public fmkclient.net.fmk20150601.ConsentType[] ConsentHeader;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("AquireOrderIdentifier", IsNullable=false)]
-        public long[] AcknowledgeAquireOrderStatusRequest;
-        
-        public AcknowledgeAquireOrderStatusRequest_2015_06_01() {
-        }
-        
-        public AcknowledgeAquireOrderStatusRequest_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, long[] AcknowledgeAquireOrderStatusRequest) {
-            this.Security = Security;
-            this.Header = Header;
-            this.OnBehalfOf = OnBehalfOf;
-            this.WhitelistingHeader = WhitelistingHeader;
-            this.ConsentHeader = ConsentHeader;
-            this.AcknowledgeAquireOrderStatusRequest = AcknowledgeAquireOrderStatusRequest;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class AcknowledgeAquireOrderStatusResponse_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Timing", IsNullable=false)]
-        public fmkclient.net.fmk20150601.TimingType[] TimingList;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponseType AcknowledgeAquireOrderStatusResponse;
-        
-        public AcknowledgeAquireOrderStatusResponse_2015_06_01() {
-        }
-        
-        public AcknowledgeAquireOrderStatusResponse_2015_06_01(fmkclient.net.fmk20150601.TimingType[] TimingList, fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponseType AcknowledgeAquireOrderStatusResponse) {
-            this.TimingList = TimingList;
-            this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
-            this.AcknowledgeAquireOrderStatusResponse = AcknowledgeAquireOrderStatusResponse;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetAquireOrderStatusRequest_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
-            "")]
-        public fmkclient.net.fmk20150601.SecurityHeaderType Security;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.medcom.dk/dgws/2006/04/dgws-1.0.xsd")]
-        public fmkclient.net.fmk20150601.Header Header;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.sdsd.dk/dgws/2012/06")]
-        public fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Consent", IsNullable=false)]
-        public fmkclient.net.fmk20150601.ConsentType[] ConsentHeader;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.GetAquireOrderStatusRequestType GetAquireOrderStatusRequest;
-        
-        public GetAquireOrderStatusRequest_2015_06_01() {
-        }
-        
-        public GetAquireOrderStatusRequest_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetAquireOrderStatusRequestType GetAquireOrderStatusRequest) {
-            this.Security = Security;
-            this.Header = Header;
-            this.OnBehalfOf = OnBehalfOf;
-            this.WhitelistingHeader = WhitelistingHeader;
-            this.ConsentHeader = ConsentHeader;
-            this.GetAquireOrderStatusRequest = GetAquireOrderStatusRequest;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetAquireOrderStatusResponse_2015_06_01 {
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("Timing", IsNullable=false)]
-        public fmkclient.net.fmk20150601.TimingType[] TimingList;
-        
-        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01")]
-        public fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.dkma.dk/medicinecard/xml.schema/2015/06/01", Order=0)]
-        public fmkclient.net.fmk20150601.GetAquireOrderStatusResponseType GetAquireOrderStatusResponse;
-        
-        public GetAquireOrderStatusResponse_2015_06_01() {
-        }
-        
-        public GetAquireOrderStatusResponse_2015_06_01(fmkclient.net.fmk20150601.TimingType[] TimingList, fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, fmkclient.net.fmk20150601.GetAquireOrderStatusResponseType GetAquireOrderStatusResponse) {
-            this.TimingList = TimingList;
-            this.PrescriptionReplicationStatus = PrescriptionReplicationStatus;
-            this.GetAquireOrderStatusResponse = GetAquireOrderStatusResponse;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RemoveConsentRequest_2015_06_01 {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" +
@@ -28077,25 +26032,6 @@ namespace fmkclient.net.fmk20150601 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.GetMedicineCardOnlyEffectuatable_2015_06_01(fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequest_2015_06_01 request) {
-            return base.Channel.GetMedicineCardOnlyEffectuatable_2015_06_01(request);
-        }
-        
-        public fmkclient.net.fmk20150601.TimingType[] GetMedicineCardOnlyEffectuatable_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequestType GetMedicineCardOnlyEffectuatableRequest, out fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, out fmkclient.net.fmk20150601.MedicineCardType[] GetMedicineCardOnlyEffectuatableResponse) {
-            fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequest_2015_06_01 inValue = new fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableRequest_2015_06_01();
-            inValue.Security = Security;
-            inValue.Header = Header;
-            inValue.OnBehalfOf = OnBehalfOf;
-            inValue.WhitelistingHeader = WhitelistingHeader;
-            inValue.ConsentHeader = ConsentHeader;
-            inValue.GetMedicineCardOnlyEffectuatableRequest = GetMedicineCardOnlyEffectuatableRequest;
-            fmkclient.net.fmk20150601.GetMedicineCardOnlyEffectuatableResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).GetMedicineCardOnlyEffectuatable_2015_06_01(inValue);
-            PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
-            GetMedicineCardOnlyEffectuatableResponse = retVal.GetMedicineCardOnlyEffectuatableResponse;
-            return retVal.TimingList;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         fmkclient.net.fmk20150601.GetMedicineCardAsPDFResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.GetMedicineCardAsPDF_2015_06_01(fmkclient.net.fmk20150601.GetMedicineCardAsPDFRequest_2015_06_01 request) {
             return base.Channel.GetMedicineCardAsPDF_2015_06_01(request);
         }
@@ -28111,25 +26047,6 @@ namespace fmkclient.net.fmk20150601 {
             fmkclient.net.fmk20150601.GetMedicineCardAsPDFResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).GetMedicineCardAsPDF_2015_06_01(inValue);
             PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
             GetMedicineCardAsPDFResponse = retVal.GetMedicineCardAsPDFResponse;
-            return retVal.TimingList;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        fmkclient.net.fmk20150601.GetDoseDispensingCardResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.GetDoseDispensingCard_2015_06_01(fmkclient.net.fmk20150601.GetDoseDispensingCardRequest_2015_06_01 request) {
-            return base.Channel.GetDoseDispensingCard_2015_06_01(request);
-        }
-        
-        public fmkclient.net.fmk20150601.TimingType[] GetDoseDispensingCard_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetDoseDispensingCardRequestType GetDoseDispensingCardRequest, out fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, out fmkclient.net.fmk20150601.GetDoseDispensingCardResponseType GetDoseDispensingCardResponse) {
-            fmkclient.net.fmk20150601.GetDoseDispensingCardRequest_2015_06_01 inValue = new fmkclient.net.fmk20150601.GetDoseDispensingCardRequest_2015_06_01();
-            inValue.Security = Security;
-            inValue.Header = Header;
-            inValue.OnBehalfOf = OnBehalfOf;
-            inValue.WhitelistingHeader = WhitelistingHeader;
-            inValue.ConsentHeader = ConsentHeader;
-            inValue.GetDoseDispensingCardRequest = GetDoseDispensingCardRequest;
-            fmkclient.net.fmk20150601.GetDoseDispensingCardResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).GetDoseDispensingCard_2015_06_01(inValue);
-            PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
-            GetDoseDispensingCardResponse = retVal.GetDoseDispensingCardResponse;
             return retVal.TimingList;
         }
         
@@ -29042,63 +26959,6 @@ namespace fmkclient.net.fmk20150601 {
             fmkclient.net.fmk20150601.AcknowledgeOrdersResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).AcknowledgeOrders_2015_06_01(inValue);
             PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
             AcknowledgeOrdersResponse = retVal.AcknowledgeOrdersResponse;
-            return retVal.TimingList;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        fmkclient.net.fmk20150601.AquireOrderResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.AquireOrder_2015_06_01(fmkclient.net.fmk20150601.AquireOrderRequest_2015_06_01 request) {
-            return base.Channel.AquireOrder_2015_06_01(request);
-        }
-        
-        public fmkclient.net.fmk20150601.TimingType[] AquireOrder_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.AquireOrderRequestType AquireOrderRequest, out fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, out fmkclient.net.fmk20150601.AquireOrderResponseType AquireOrderResponse) {
-            fmkclient.net.fmk20150601.AquireOrderRequest_2015_06_01 inValue = new fmkclient.net.fmk20150601.AquireOrderRequest_2015_06_01();
-            inValue.Security = Security;
-            inValue.Header = Header;
-            inValue.OnBehalfOf = OnBehalfOf;
-            inValue.WhitelistingHeader = WhitelistingHeader;
-            inValue.ConsentHeader = ConsentHeader;
-            inValue.AquireOrderRequest = AquireOrderRequest;
-            fmkclient.net.fmk20150601.AquireOrderResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).AquireOrder_2015_06_01(inValue);
-            PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
-            AquireOrderResponse = retVal.AquireOrderResponse;
-            return retVal.TimingList;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.AcknowledgeAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusRequest_2015_06_01 request) {
-            return base.Channel.AcknowledgeAquireOrderStatus_2015_06_01(request);
-        }
-        
-        public fmkclient.net.fmk20150601.TimingType[] AcknowledgeAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, long[] AcknowledgeAquireOrderStatusRequest, out fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, out fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponseType AcknowledgeAquireOrderStatusResponse) {
-            fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusRequest_2015_06_01 inValue = new fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusRequest_2015_06_01();
-            inValue.Security = Security;
-            inValue.Header = Header;
-            inValue.OnBehalfOf = OnBehalfOf;
-            inValue.WhitelistingHeader = WhitelistingHeader;
-            inValue.ConsentHeader = ConsentHeader;
-            inValue.AcknowledgeAquireOrderStatusRequest = AcknowledgeAquireOrderStatusRequest;
-            fmkclient.net.fmk20150601.AcknowledgeAquireOrderStatusResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).AcknowledgeAquireOrderStatus_2015_06_01(inValue);
-            PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
-            AcknowledgeAquireOrderStatusResponse = retVal.AcknowledgeAquireOrderStatusResponse;
-            return retVal.TimingList;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        fmkclient.net.fmk20150601.GetAquireOrderStatusResponse_2015_06_01 fmkclient.net.fmk20150601.MedicineCardPortType.GetAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.GetAquireOrderStatusRequest_2015_06_01 request) {
-            return base.Channel.GetAquireOrderStatus_2015_06_01(request);
-        }
-        
-        public fmkclient.net.fmk20150601.TimingType[] GetAquireOrderStatus_2015_06_01(fmkclient.net.fmk20150601.SecurityHeaderType Security, fmkclient.net.fmk20150601.Header Header, fmkclient.net.fmk20150601.OnBehalfOfType OnBehalfOf, fmkclient.net.fmk20150601.WhitelistingHeader WhitelistingHeader, fmkclient.net.fmk20150601.ConsentType[] ConsentHeader, fmkclient.net.fmk20150601.GetAquireOrderStatusRequestType GetAquireOrderStatusRequest, out fmkclient.net.fmk20150601.PrescriptionReplicationStatusType PrescriptionReplicationStatus, out fmkclient.net.fmk20150601.GetAquireOrderStatusResponseType GetAquireOrderStatusResponse) {
-            fmkclient.net.fmk20150601.GetAquireOrderStatusRequest_2015_06_01 inValue = new fmkclient.net.fmk20150601.GetAquireOrderStatusRequest_2015_06_01();
-            inValue.Security = Security;
-            inValue.Header = Header;
-            inValue.OnBehalfOf = OnBehalfOf;
-            inValue.WhitelistingHeader = WhitelistingHeader;
-            inValue.ConsentHeader = ConsentHeader;
-            inValue.GetAquireOrderStatusRequest = GetAquireOrderStatusRequest;
-            fmkclient.net.fmk20150601.GetAquireOrderStatusResponse_2015_06_01 retVal = ((fmkclient.net.fmk20150601.MedicineCardPortType)(this)).GetAquireOrderStatus_2015_06_01(inValue);
-            PrescriptionReplicationStatus = retVal.PrescriptionReplicationStatus;
-            GetAquireOrderStatusResponse = retVal.GetAquireOrderStatusResponse;
             return retVal.TimingList;
         }
         
